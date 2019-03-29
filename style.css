@@ -1,0 +1,128 @@
+body {
+	background-image: url("zimg.jpg");
+	}
+
+.textview{
+  display: inline-block;
+	margin: 2px;
+	width: 275px;
+	height: 55px;
+	font-size: 30px;
+	padding-right:10px;
+    background-color: black;
+	border: none;
+	text-align:right;
+	color:white;
+	}
+
+.equalButton {
+    background-color: orange;
+color:white;
+width: 70px;
+height: 60px;
+border: 1px solid black;
+text-align: center;
+cursor: pointer;
+font-size: 40px;
+font-weight: 100;
+padding-top:3px
+border-right:25px;
+  
+}
+
+.button
+{
+background-color:gray;
+color:  silver;
+width: 70px;
+height: 60px;
+border: 1px solid black;
+text-align: center;
+cursor: pointer;
+font-size: 40px;
+font-weight: 100;
+padding-top:3px;
+border-right:10px;
+border-right-width:2px;
+border-top-width:0.5px;
+border-bottom-width:0.2px;
+
+}
+
+.button:active, .allclearButton:active,.equalButton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+        
+}
+
+.allclearButton {
+background-color: #484f4f;
+color:  silver;
+width: 70px;
+height: 60px;
+border: 1px solid black;
+text-align: center;
+cursor: pointer;
+font-size: 25px;
+font-weight: 100;
+padding-top:3px
+border-right:25px;	
+}
+
+h1{
+	color:#F1620B;
+	font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: black;
+		/* background-size: 100px 80px; */
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+.calc-zero
+{
+background-color: gray;
+color:  silver;
+width: 100%	;
+height: 60px;
+border: 1px solid black;
+text-align: center;
+cursor: pointer;
+font-size: 40px;
+font-weight: 100;
+padding-top:3px
+border-right:25px;
+
+}
+.button-operator
+{
+background-color: orange;
+color:white;
+width: 70px;
+height: 60px;
+border: 1px solid black;
+text-align: center;
+cursor: pointer;
+font-size: 40px;
+font-weight: 100;
+padding-top:3px
+border-right:25px;
+}
